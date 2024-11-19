@@ -4,4 +4,4 @@ git clone https://github.com/aosp-realm/android_build_manifest.git -b apollo-vau
 /opt/crave/resync.sh && \
 repo forall -c 'git lfs pull' ; \
 export TZ=Asia/Manila ; \
-./rom-build.sh
+./rom-build.sh apollo
