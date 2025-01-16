@@ -6,7 +6,6 @@ export BUILD_USERNAME=dogpoopy ; \
 export BUILD_HOSTNAME=android-build ; \
 export TZ=Asia/Manila ; \
 repo forall -c 'git lfs pull' ; \
-wget -O vendor/gms/common/proprietary/system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk "https://sourceforge.net/projects/aosp-realm/files/NexusLauncherRelease.apk/download" && \
 source build/envsetup.sh && \
 lunch aosp_apollo-ap3a-user && \
 make installclean ; \
