@@ -1,1 +1,1 @@
-cd device/xiaomi/mondrian && git pull && cd - && cd vendor/xiaomi/mondrian && git pull && cd - && source build/envsetup.sh && lunch aosp_mondrian-ap3a-userdebug && make installclean && mka bacon
+cd device/xiaomi/mondrian && git pull && cd - && cd vendor/xiaomi/mondrian && git pull && cd - && export TARGET_PROVIDES_AUDIO_HAL && source build/envsetup.sh && lunch aosp_mondrian-ap3a-userdebug && make installclean && mka bacon
